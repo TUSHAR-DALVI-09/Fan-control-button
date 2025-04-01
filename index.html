@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="main">
+    
+    <img id="img" src="hot.png" alt=""> <br> <br>
+<div class="fan-speed-knob">
+    <div class="wrapper">
+      <div class="knob-outer">
+        <div class="knob-base">
+          <hr class="divider" />
+          <hr class="divider" />
+          <hr class="divider" />
+          <div class="control">
+            <label onclick="myFunOff()" for="fan_off"><span class="off">OFF</span></label>
+            <label onclick="myFun1()" for="fan_1"><span>1</span></label>
+            <label onclick="myFun2()" for="fan_2"><span>2</span></label>
+            <label onclick="myFun3()" for="fan_3"><span>3</span></label>
+            <label onclick="myFun4()" for="fan_4"><span>4</span></label>
+            <label onclick="myFun5()" for="fan_5"><span>5</span></label>
+            <input id="fan_off" name="fan" checked="" type="radio" />
+            <input id="fan_1" name="fan" type="radio" />
+            <input id="fan_2" name="fan" type="radio" />
+            <input id="fan_3" name="fan" type="radio" />
+            <input id="fan_4" name="fan" type="radio" />
+            <input id="fan_5" name="fan" type="radio" />
+            <div class="pointer"><span></span></div>
+            <div class="marker"><span></span></div>
+            <div class="knob-middle">
+              <div class="knob-inner">
+                <div class="knob-core">
+                  <div class="status">
+                    <div class="off-light"></div>
+                    <div class="speed-lights">
+                      <span class="speed-light"></span>
+                      <span class="speed-light"></span>
+                      <span class="speed-light"></span>
+                      <span class="speed-light"></span>
+                      <span class="speed-light"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="app.js"></script>
+  
+</body>
+</html>
