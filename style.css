@@ -373,3 +373,23 @@ image{
   );
   background-color: orange;
 } */
+
+
+
+@media screen and (max-width: 600px) {
+  body{
+    display: flex;
+    background-size: auto 700px;
+  }
+
+  #img{
+    animation: fananim linear infinite;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ 
+
+}
